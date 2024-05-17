@@ -1,4 +1,5 @@
-import Button from "@/components/button";
+import Button from "@/components/Button";
+import Header from "@/components/header/Header";
 import ButtonGradient from "@/public/assets/svg/ButtonGradient";
 
 export default function Home() {
@@ -6,7 +7,8 @@ export default function Home() {
     <>
       <ButtonGradient />
       <div className="pt-[4.75rem] lg:pt-[5.25] overflow-hidden">
-        <Button className="mt-10" href="#login">Something</Button>
+        <Header />
+
       </div>
     </>
   );
