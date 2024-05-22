@@ -1,4 +1,5 @@
 import Button from "@/components/Button";
+import Benefits from "@/components/benefits/benefits";
 import Header from "@/components/header/Header";
 import Hero from "@/components/section/Hero";
 import ButtonGradient from "@/public/assets/svg/ButtonGradient";
@@ -10,7 +11,7 @@ export default function Home() {
       <div className="pt-[4.75rem] lg:pt-[5.25] overflow-hidden">
         <Header />
         <Hero />
-
+        <Benefits />
       </div>
     </>
   );
